@@ -24,7 +24,7 @@ describe('connection', function () {
     });
   });
 
-  describe('.scan()', function () {
+  /*describe('.scan()', function () {
     it('should run widthout error', function (done) {
       var query = new zoom.Query('@attr 1=4 台灣');
       conn.scan(query, function (err) {
@@ -32,5 +32,5 @@ describe('connection', function () {
         done();
       });
     });
-  });
+  });*/
 });
